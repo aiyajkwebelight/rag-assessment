@@ -13,8 +13,8 @@ Ensure you have the following installed:
 ### **Step 1: Clone the Repository**
 
 ```
-git clone repo
-cd rag
+git clone https://github.com/aiyajkwebelight/rag-assessment.git
+cd rag-assessment
 ```
 
 ### **Step 2: Create a Virtual Environment**
