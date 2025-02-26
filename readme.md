@@ -33,13 +33,22 @@ pip install -r requirements.txt
 
 ### **Step 4: Set Up Environment Variables**
 
-Create a `.env` file in the root directory and configure necessary environment variables:
+To configure the necessary API keys, create a `.env` file in the root directory and add the following variables:
 
-```
-TEVILY_API_KEY= your key
-GEMINI_API_KEY = your key
+#### 🔑 **Environment Variables**
 
+| Variable           | Description                                                                                                           |
+| ------------------ | --------------------------------------------------------------------------------------------------------------------- |
+| `TEVILY_API_KEY` | Used in **Corrective RAG** to fetch additional data from the web when the query and document are not relevant. |
+| `GEMINI_API_KEY` | Required for generating responses using Google's Gemini LLM.                                                          |
+
+#### 📌 **Example `.env` File**
+
+```sh
+TEVILY_API_KEY=your_tevily_api_key
+GEMINI_API_KEY=your_gemini_api_key
 ```
+
 
 ## Step 5: Run the Code
 
